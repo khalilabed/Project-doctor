@@ -3679,7 +3679,8 @@ html.menu-opened body {
 	font-weight: normal;
 }
 .time-items {
-    color: #757575;
+	color: #6ec7c3;
+	font-weight: 500;
 }
 .time-items > span {
     display: block;
@@ -5423,7 +5424,7 @@ html.menu-opened body {
 }
 .change-avatar .change-photo-btn {
     margin: 0 0 10px;
-    width: 150px;
+    width: 52px;
 }
 .widget-profile.pat-widget-profile .profile-info-widget .booking-doc-img {
 	padding: 0;
@@ -7952,6 +7953,7 @@ i.far.fa-comment-alt.private-button {
 	}
 	.item-img img{
 		width: 100%;
+		height: 100%;
 	}
 	.sty-p{
 		width: 100%;
@@ -8114,9 +8116,25 @@ i.far.fa-comment-alt.private-button {
 	font-size: 13px;
 
 }
+.but2{
+	width: 95%;
+	margin: 11px;
+}
+.widget{
+	    margin-left: 16%;
 
+}
+.marr{	
+	margin-top: 49px;
 
-
+}
+.btn3{
+	background-color: #ff0100 ;
+}
+.fa-trash , .fa-pen-to-square{
+	font-size: 20px;
+	margin: 10px;
+}
 	@media only screen and (max-width:750px) {
 		body{
 			margin: 15px;
@@ -8176,6 +8194,11 @@ i.far.fa-comment-alt.private-button {
 			padding-right: 36%;
 			font-size: 13px;
 		}
-		
-		
+		.widget{
+		margin-left: 0;		
+		}
+		.but2{
+			width: 100%;
+			margin: 11px;
+		}
 	}
