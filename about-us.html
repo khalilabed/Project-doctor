@@ -21,6 +21,7 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   </head>
 </head>
@@ -61,7 +62,7 @@
               <a href="./search.html">Search Doctors </a>
             </li>
             <li class="has-submenu">
-              <a href="blogs.html">Blogs </a>
+              <a href="blogs.html">Blogs</a>
             </li>
             <li class="has-submenu">
               <a href="about-us.html">About Us</a>
@@ -70,20 +71,35 @@
               <a href="login.html">Login</a>
               <a href="register.html">Signup</a>
             </li>
-
+    
           </ul>
         </div>
         <div>
           <ul class="nav header-navbar-rht">
             <li class="nav-item contact-item">
-              <div class="header-contact-img">
-                <i class="fas fa-search text-sm-start"></i>
+              <div type="button" class="position-relative">
+                <img src="./assets/img/chat.png">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-new">+99
+                  <span class="visually-hidden"></span></span>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link header-login m-2 rounded-14" href="login.html">login</a>
-              <a class="nav-link header-login m-2 rounded-14" href="register.html">Signup</a>
+            <li class="nav-item contact-item">
+              <div type="button" class="position-relative">
+                <img src="./assets/img/not.png">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">+99
+                  <span class="visually-hidden"></span></span>
+              </div>
             </li>
+            <div class="dropdown">
+              <div class="drop-img">
+                <img src="./assets/img/doctor-thumb-06.jpg" alt="">
+              </div>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
             <li class="nav-item lang-section">
               <img src="./assets/img/lang.png" alt="lang Image" />
               <p>العربية</p>
@@ -95,12 +111,13 @@
     <!-- /Header -->
 
 
+
     <!-- About Us Section  -->
 
 
     <div class="about">
       <div class="main-heading">
-        <h2>About Us</h2>
+        <h2 class="fw-bold py-4">About Us</h2>
       </div>
     </div>
 
@@ -145,7 +162,7 @@
 
               <div class="new d-flex justify-content-start align-items-center py-3">
                 <div class="cicle">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i class="fa-solid fa-phone-volume text-white" aria-hidden="true"></i>
                 </div>
                 <div class="ps-2">
                   <p>Need Emergency?</p>
@@ -163,7 +180,7 @@
 
 
     <div class="features py-5">
-      <h2 class="choose">Why Choose Us ?</h2>
+      <h2 class="choose fw-bold">Why Choose Us ?</h2>
       <div class="container">
         <div class="row">
 

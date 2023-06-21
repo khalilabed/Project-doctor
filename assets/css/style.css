@@ -1370,7 +1370,7 @@ button.bg-danger:hover {
 .nav-tabs.nav-tabs-bottom > li > a.active:focus {
 	border-bottom-width: 2px;
 	border-color: transparent;
-	border-bottom-color: #20c0f3;
+	border-bottom-color: #6ec7c3;
 	background-color: transparent;
 	transition: none 0s ease 0s; 
 	-moz-transition: none 0s ease 0s; 
@@ -3360,7 +3360,7 @@ html.menu-opened body {
 .user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:hover, 
 .user-tabs .nav-tabs.nav-tabs-bottom > li > a.active:focus {
 	border-bottom-width: 3px;
-	color: #20c0f3;
+	color: #6ec7c3;
 }
 .user-tabs .med-records {
 	display: inline-block;
@@ -3368,7 +3368,7 @@ html.menu-opened body {
 }
 .user-tabs .nav-tabs > li > a:hover {
 	background-color: unset;
-	color: #20c0f3;
+	color: #6ec7c3;
 }
 .widget {
 	margin-bottom: 30px;
@@ -3580,7 +3580,7 @@ html.menu-opened body {
     padding: 5px 0;
 	margin-bottom: 0;
 }
-.review-listing .recommend-btn a {
+.review-listing .recommend-btn a  , .cheak{
     border: 1px solid rgba(128,137,150,0.4);
     border-radius: 4px;
     padding: 4px 12px;
@@ -3636,7 +3636,7 @@ html.menu-opened body {
     color: #f2b600
 }
 .terms-accept a {
-	color: #20c0f3;
+	color: #6EC7C3;
 	font-weight: 500;
 }
 .business-widget {
@@ -4063,16 +4063,16 @@ html.menu-opened body {
 	21. Invoice View
 -----------------------*/
 
-.invoice-content {
+/* .invoice-content {
     background-color: #fff;
 	border: 1px solid #f0f0f0;
     border-radius: 4px;
     margin-bottom: 30px;
 	padding: 30px;
-}
-.invoice-item .invoice-logo {
+} */
+/* .invoice-item .invoice-logo {
     margin-bottom: 30px;
-}
+} */
 .invoice-item .invoice-logo img {
     width: auto;
     max-height: 52px;
@@ -7348,6 +7348,7 @@ html.menu-opened body {
     background: #FFFFFF;
     border: 1px solid #D1D1D1;
 	border-radius: 8px;
+	height: 335px;
   }
   
   .features .feat i {
@@ -7984,11 +7985,15 @@ i.far.fa-comment-alt.private-button {
 	.top-top{
 		margin-top:-10px ;
 	}
+	.top-top2{
+		margin-top:-15px ;
+	}
 	.feat{
 		height: 300px;
 	}
 	.con-img img{
 		width: 100%;
+		border-radius: 20px;
 	}
 	.h1-sty{
 		font-size: 20px;
@@ -8090,11 +8095,25 @@ i.far.fa-comment-alt.private-button {
 /* end dropheder */
 
 
+.icon{
+    background-color: #EEEEEE;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.icon:hover{
+    background-color: var(--colorBase);
+    color: var(--color2);
+}
+#review_desc{
+	height: 130px;
+}
+.sty-radio{
+	padding-left: 35%;
+	padding-right: 40%;
+	font-size: 13px;
 
-
-
-
-
+}
 
 
 
@@ -8152,5 +8171,11 @@ i.far.fa-comment-alt.private-button {
 		.new-left {
 		  padding-left: 80px;
 		}
+		.sty-radio {
+			padding-left: 33%;
+			padding-right: 36%;
+			font-size: 13px;
+		}
+		
 		
 	}

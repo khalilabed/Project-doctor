@@ -19,6 +19,7 @@
   <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
 </head>
@@ -58,7 +59,7 @@
               <a href="./search.html">Search Doctors </a>
             </li>
             <li class="has-submenu">
-              <a href="blogs.html">Blogs </a>
+              <a href="blogs.html">Blogs</a>
             </li>
             <li class="has-submenu">
               <a href="about-us.html">About Us</a>
@@ -73,14 +74,29 @@
         <div>
           <ul class="nav header-navbar-rht">
             <li class="nav-item contact-item">
-              <div class="header-contact-img">
-                <i class="fas fa-search text-sm-start"></i>
+              <div type="button" class="position-relative">
+                <img src="./assets/img/chat.png">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-new">+99
+                  <span class="visually-hidden"></span></span>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link header-login m-2 rounded-14" href="login.html">login</a>
-              <a class="nav-link header-login m-2 rounded-14" href="register.html">Signup</a>
+            <li class="nav-item contact-item">
+              <div type="button" class="position-relative">
+                <img src="./assets/img/not.png">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">+99
+                  <span class="visually-hidden"></span></span>
+              </div>
             </li>
+            <div class="dropdown">
+              <div class="drop-img">
+                <img src="./assets/img/doctor-thumb-06.jpg" alt="">
+              </div>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
             <li class="nav-item lang-section">
               <img src="./assets/img/lang.png" alt="lang Image" />
               <p>العربية</p>
@@ -112,8 +128,8 @@
             </div>
             <div class="section-main d-flex justify-content-bettwen align-items-center py-3">
               <div class="d-flex justify-content-center align-items-center ">
-                  <img src="/assets/img/about/Blog2.png" />
-                  <p class="plus-margin ps-2">Dr. Linda toben</p>
+                <img src="/assets/img/about/Blog2.png" />
+                <p class="plus-margin ps-2">Dr. Linda toben</p>
               </div>
               <div class="d-flex justify-content-center align-items-center ">
                 <img src="/assets/img/about/calenderNew.png" />
@@ -123,30 +139,37 @@
                 <img src="/assets/img/about/comment.png" />
                 <p class="plus-margin ps-2">12 Comments</p>
               </div>
-              <div class="d-flex justify-content-center align-items-center "> 
+              <div class="d-flex justify-content-center align-items-center ">
                 <img src="/assets/img/about/saved.png" />
                 <p class="plus-margin ps-2">99%</p>
               </div>
-              
+
             </div>
             <div class="para-blog py-5">
-              <p>If you have chronic obstructive pulmonary disease (COPD) or another lung condition that makes it hard to
+              <p>If you have chronic obstructive pulmonary disease (COPD) or another lung condition that makes it hard
+                to
                 breathe, such as asthma or interstitial lung disease, your doctor may recommend pulmonary rehabilitation
                 (PR),
                 a medically supervised exercise and education program.</p>
               <br />
-              <p>“PR is a cornerstone of treatment for people with chronic respiratory diseases,” says Eric Lang, M.D., a
-                pulmonologist at the University of Miami Health System in Florida. If you’re new to the term, you probably
-                have questions about what, exactly, goes on in pulmonary rehab and how best to prepare. We got the details
-                from top pulmonologists on what kind of equipment you’ll use, how long your sessions will last (and how many
+              <p>“PR is a cornerstone of treatment for people with chronic respiratory diseases,” says Eric Lang, M.D.,
+                a
+                pulmonologist at the University of Miami Health System in Florida. If you’re new to the term, you
+                probably
+                have questions about what, exactly, goes on in pulmonary rehab and how best to prepare. We got the
+                details
+                from top pulmonologists on what kind of equipment you’ll use, how long your sessions will last (and how
+                many
                 you’ll likely do),
                 whether (or not) most insurance plans will cover PR programs, and more.</p>
               <br />
               <p>What Is Pulmonary Rehab?
                 PR is a structured program that combines a range of medical interventions that are designed to help you
                 breathe better. The big-picture goal? To improve your physical and psychological health. Pulmonary rehab
-                will include an exercise program aimed at improving your breathing, but it’s much more than that: PR also
-                involves education on your disease and how best to manage it. This part of the program may be conducted in a
+                will include an exercise program aimed at improving your breathing, but it’s much more than that: PR
+                also
+                involves education on your disease and how best to manage it. This part of the program may be conducted
+                in a
                 one-on-one setting or in a group.
               </p>
             </div>
@@ -160,9 +183,15 @@
         <div class="share-text">
           <h3>Share the post</h3>
         </div>
+        <div class=" d-flex justify-content-start p-3 ">
+          <a href="#"><i class="icon fa-brands fa-facebook fa-2x "></i></a>
+          <a href="#"><i class="icon fa-brands fa-youtube fa-2x"></i></a>
+          <a href="#"><i class="icon fa-brands fa-linkedin fa-2x "></i></a>
+          <a href="#"><i class="icon fa-brands fa-twitter fa-2x "></i></a>
+          <a href="#"><i class="icon fa-brands fa-google-plus-g fa-2x"></i></a>
+        </div>
       </div>
     </div>
-
 
 
 
