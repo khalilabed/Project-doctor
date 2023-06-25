@@ -8176,7 +8176,17 @@ i.far.fa-comment-alt.private-button {
     height: 756px;
 }
 .profile-widget2{
-	height: 400px !important;
+	height: 517px !important;
+}
+.cat-img{
+	height: 300px ;
+	overflow: hidden;
+}
+.cat-img img{
+	height: 100%;
+}
+.up{
+	padding-left: 34px;
 }
 	@media only screen and (max-width:750px) {
 		.aa{
